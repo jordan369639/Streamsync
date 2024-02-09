@@ -1,0 +1,101 @@
+.profile{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+}
+.profile button{
+    cursor: pointer;
+}
+.profileBox{
+    width: 30rem;
+    max-width: 30rem;
+    max-height: 27rem;
+    background: rgba(32, 13, 13, 0.934);
+    padding: 1rem;
+    position: relative;
+    color: white;
+    border-radius: 1rem;
+}
+.profileIcon{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    border: 0.1rem solid red;
+}
+.profileIcon >img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.subsription_details{
+    padding: 1rem 1rem;
+    margin-top: 2rem;
+    height: 68%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.profileDetails{
+    color: white;
+    position: absolute;
+    left: 8rem;
+    top: 2rem;
+}
+.plan1 {
+    display: flex;
+    justify-content: space-between;
+}
+.plan2{
+  display: flex;  
+  justify-content: space-between;
+}
+.plan1 > P{
+    font-size: 1rem;
+    font-weight: 500;
+}
+.plan2 > p{
+    font-size: 1rem;
+    font-weight: 500;
+}
+.logoutbtn{
+    width: 100%;
+    height: 2rem;
+    border-radius: 0.1rem;
+    background-color: red;
+}
+.subsbtn{
+    padding: 0.5rem 0.5rem;
+    background-color: red;
+    border: none;
+    color: white;
+    height: 3rem;
+    width: 5rem;
+    border-radius: 0.5rem;
+}
+.logoutbtn{
+    width: 100%;
+    height: 2rem;
+    border-radius: 0.5rem;
+    background-color: red;
+    border: none;
+    color: white;
+}
+html,
+body {
+  
+      
+
+
+    @media (max-width: 500px) {
+      
+       
+        .profileBox{
+            max-width: 19rem;
+        }
+            }
+
+}

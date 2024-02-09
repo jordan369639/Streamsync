@@ -1,0 +1,123 @@
+.loginArea{
+    min-width: 100vw;;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    flex-direction: column;
+    padding: 1rem;
+    
+}
+/* .loginArea::after{
+    content: "";
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+} */
+.inputField{
+    display: flex;
+    height: 4rem;
+    justify-content: center;
+    align-items: center;
+    width: 35rem;
+}
+.emailInput{
+    max-width: 62%;
+    border-radius: 1rem 0 0 1rem;
+    height: 2rem;
+    padding: 0rem 1rem;
+    border: none;
+    min-width: 40%
+}
+.loginbtn{
+    height: 2.2rem;
+    max-width: 26%;
+    border-radius: 1rem;
+    border-radius: 0rem 1rem 1rem 0rem;
+    padding: 0rem 1rem;
+    background-color: red;
+    border: none;
+    color: white;
+    min-width: 20%;
+}
+.alert > p{
+    font-size:15px;
+    color: rgb(47, 206, 22);
+    font-weight: 500;
+    
+
+} 
+.aboutStreamsync > h2{
+    font-size: 3rem;
+    font-weight: 900;
+    color: white;
+    text-align: center;
+    width: 90%;
+}
+.aboutStreamsync > p{
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    color: white;
+    width: 90%;
+}
+.header{
+    width: 75vw;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    height: 4rem;
+
+}
+
+.siginbtn{
+    width: 4rem;
+    height: 3rem;
+    background: red;
+    border: none;
+    color: white;
+    border-radius: 0.5rem;
+  
+}
+.loginLogo{
+    WIDTH: 13REM;
+    HEIGHT: 3REM;
+}
+.loginLogo > img{
+    width: 100%;
+    height: 100%;
+}
+html,
+body {
+    @media (max-width: 1173px) {
+      
+.aboutStreamsync >h2{
+    font-size: 2rem;
+}
+
+    }
+
+    @media (max-width: 500px) {
+      
+        .aboutStreamsync >h2{
+            font-size: 1.5rem;
+        }
+        .aboutStreamsync >p{
+            font-size: 1rem;
+        }
+        .inputField{
+            width: 33rem;
+        }
+        .profileBox{
+            max-width: 19rem;
+        }
+            }
+
+}

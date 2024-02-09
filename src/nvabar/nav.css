@@ -1,0 +1,309 @@
+.navbar {
+    color: white;
+    min-width: 100vw;
+    max-height: 5rem;
+    padding: 0rem 2rem;
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    position: fixed;
+    z-index: 100;
+    box-sizing: border-box;
+    min-height: 4rem;
+    justify-content: space-between;
+}
+
+.Entr_list {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-around;
+    width: 45%;
+}
+
+.nav_black {
+    background-color: rgb(20, 20, 20);
+}
+
+.icons {
+    /* position: absolute; */
+    display: flex;
+    z-index: 23;
+    color: white;
+    /* width: 40%; */
+    left: 12rem;
+    overflow: hidden;
+    gap: 1.3rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.search_box {
+    background-color: rgba(27, 24, 24, 0.858);
+    color: white;
+    border: none;
+    padding: 0rem 1rem;
+    visibility: hidden;
+
+}
+
+.prf_list {
+    display: flex;
+    list-style: none;
+    /* position: absolute; */
+    /* right: 42vw; */
+    width: 20rem;
+    justify-content: space-between;
+    height: 2rem;
+
+
+
+}
+
+.search_btn {
+    font-size: 1.4rem;
+    background: transparent;
+    outline: none;
+    border: none;
+    color: white;
+    transform: translate(8px, 2px);
+    z-index: 100;
+
+}
+
+.notification {
+    font-size: 1.6rem;
+    background: transparent;
+    border: none;
+    color: white;
+}
+
+.user {
+
+    font-size: 1.4rem;
+    background: transparent;
+    border: none;
+    color: white;
+}
+
+.active {
+    width: 14rem;
+    visibility: visible;
+    max-width: 14rem;
+}
+
+.active .search_btn {
+    transform: translate(8px, 2px);
+
+
+}
+a:link{
+    color: white;
+    text-decoration: none;
+}
+a:visited{
+    color: white;
+}
+ul li a:hover{
+    transform: scale(1.1);
+
+}
+.menuItems {
+    display: none;
+}
+
+
+.category {
+
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    gap: 1rem;
+    width: 100%;
+}
+
+
+
+.browse {
+    display: none;
+    width: 100%;
+    background: #2a2323;
+    padding: 0.3rem 0rem;
+}
+
+.logo {
+    padding: 0rem 2rem;
+    width: 4rem;
+    height: 3rem;
+}
+
+.logo>img {
+    width: 100%;
+    height: 100%;
+}
+
+.activeDisplay {
+    display: flex;
+}
+
+.category>li:hover {
+   cursor: pointer;
+}
+
+@media (max-width: 1259px) {
+    .category {
+        flex-direction: column;
+        background: #2f2a2a;
+        display: none;
+    }
+
+    .activeDisplay {
+        display: flex;
+    }
+    .category>li:hover {
+        background-color: rgba(15, 15, 15, 0.625);
+        padding: 0.3rem;
+        color: white;
+    }
+    .Entr_list {
+        width: 16%;
+        flex-direction: column;
+        position: absolute;
+        top: 0.8rem;
+        left: 11rem;
+        height: 23rem;
+        align-items: center;
+        justify-content: flex-start;
+        padding: 0rem 1rem;
+    }
+
+    .browse {
+
+        display: flex;
+        justify-content: space-between;
+        border-radius: 0.5rem;
+        padding: 0.5rem 0.5rem;
+    }
+
+    .category>li {
+        border: 0.1rem solid white;
+        padding: 0.3rem;
+    }
+
+}
+
+.dropMenu {
+    background: red;
+    position: absolute;
+    top: 0rem;
+    width: 0rem;
+    height: 21rem;
+    left: 0rem;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.dropMenu ul {
+    padding: 1rem;
+}
+
+.dropMenu ul>li {
+    padding: 1rem;
+    list-style: none;
+}
+
+.bars {
+    width: 3rem;
+    height: 2rem;
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+    color: white;
+}
+
+.back {
+    position: absolute;
+    left: 10rem;
+    top: 0.3rem;
+    width: 3rem;
+    height: 2rem;
+    border: none;
+}
+
+.visible {
+    width: 14rem;
+}
+
+.hidden {
+    width: 0rem;
+}
+
+html,
+body {
+    @media (max-width: 800px) {
+        .leftbtn {
+            display: none;
+        }
+
+        .rightbtn {
+            display: none;
+        }
+.countActive{
+display: none;
+}
+
+    }
+
+    @media (max-width: 685px) {
+        .Entr_list {
+            display: none;
+        }
+
+        .menuItems {
+            display: block;
+        }
+
+        .img {
+            overflow: hidden;
+            height: 10rem;
+            width: 7rem;
+        }
+
+        .movieList>h2 {
+            font-size: 1rem;
+        }
+
+    }
+    @media (max-width:530px) {
+        .prf_list {
+            width: 16rem;
+        }
+
+       .active{
+        width: 10rem;
+    visibility: visible;
+    max-width: 10rem;
+       }
+       .icons{
+        position: absolute;
+        width: 30%;
+        left: 22rem;
+       }
+    }
+@media (max-width: 450px) {
+    .icons{
+        left: 19.5rem;
+    }
+}
+    @media (max-width:430px) {
+        .prf_list {
+            width: 10rem;
+        }
+        .active {
+            width: 8rem;
+        }
+        .icons{
+            left: 17rem;
+        }
+    }
+}
